@@ -19,7 +19,7 @@ darkMode.addEventListener('click', () => {
     .add(
       {
         targets: '#darkMode',
-        rotate:  toggle ? 0 : 320
+        rotate:  toggle ? -40 : 320
       }, 
       '-= 350'
     )
